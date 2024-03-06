@@ -1,9 +1,9 @@
 
 
 const goodbye=jmeno=> {
- const closingParagraph = document.querySelector('.email__closing')   
+ const rozlouceni = document.querySelector('.email__closing')   
     if (jmeno) {
-        sPozdravem.textContent = `S pozdravem ${jmeno}`
+        rozlouceni.textContent = `S pozdravem ${jmeno}`
       } else {
         rozlouceni.textContent = 'Na shledanou'
       }
