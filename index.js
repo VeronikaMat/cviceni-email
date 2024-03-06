@@ -1,6 +1,6 @@
 
 
-const goodbye=jmeno=> {
+function goodbye(jmeno) {
  const rozlouceni = document.querySelector('.email__closing')   
     if (jmeno) {
         rozlouceni.textContent = `S pozdravem ${jmeno}`
