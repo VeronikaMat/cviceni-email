@@ -1,11 +1,14 @@
-function goodbye(jmeno) {
-    const closingParagraph = document.querySelector('.email__closing');
+
+const closingParagraph = document.querySelector('.email__closing')
+const goodbye=jmeno=> {
+    
     if (jmeno) {
-      closingParagraph.textContent = `S pozdravem ${jmeno}`;
-    } else {
-      closingParagraph.textContent = 'Na shledanou';
+        sPozdravem.textContent = `S pozdravem ${jmeno}`;
+      } else {
+        rozlouceni.textContent = 'Na shledanou';
+      }
     }
-  }
+    
   
   // Zavoláme funkci s příkladovým jménem
-  goodbye('Pavel Ovesný');
+  goodbye('Pavel Ovesný')
